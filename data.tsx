@@ -685,83 +685,80 @@ const unit11Exercises: ExerciseItem[] = [
 ];
 
 // =====================================================
-// UNIT 12 – MY FUTURE CAREER (Nghề nghiệp tương lai)
+// UNIT 12 – CAREER CHOICES (Lựa chọn nghề nghiệp)
 // =====================================================
 
 const unit12Vocab: VocabItem[] = [
-  { word: "Career", ipa: "/kəˈrɪər/ (n)", meaning: "<strong>Sự nghiệp</strong>. Công việc lâu dài trong một lĩnh vực.<br/><em class='text-xs text-gray-500'>Khác với Job (công việc cụ thể): Career = lộ trình nghề nghiệp.</em>" },
-  { word: "Qualification", ipa: "/ˌkwɒlɪfɪˈkeɪʃn/ (n)", meaning: "<strong>Bằng cấp, chứng chỉ</strong>.<br/><em class='text-xs text-gray-500'>Ví dụ: You need a degree for this job.</em>" },
-  { word: "Internship", ipa: "/ˈɪntɜːrnʃɪp/ (n)", meaning: "<strong>Kỳ thực tập</strong>.<br/><em class='text-xs text-gray-500'>Ví dụ: She did an internship at a hospital.</em>" },
-  { word: "Application", ipa: "/ˌæplɪˈkeɪʃn/ (n)", meaning: "<strong>Đơn xin việc</strong>.<br/><em class='text-xs text-gray-500'>Apply (v) → Application (n). Ví dụ: I sent an application for the job.</em>" },
-  { word: "Interview", ipa: "/ˈɪntəvjuː/ (n/v)", meaning: "<strong>Phỏng vấn</strong>.<br/><em class='text-xs text-gray-500'>Ví dụ: He had a job interview today.</em>" },
-  { word: "Salary", ipa: "/ˈsæləri/ (n)", meaning: "<strong>Lương tháng</strong> (cố định).<br/><em class='text-xs text-gray-500'>Khác với Wage (lương theo giờ).</em>" },
-  { word: "Entrepreneur", ipa: "/ˌɒntrəprəˈnɜːr/ (n)", meaning: "<strong>Doanh nhân, người khởi nghiệp</strong>.<br/><em class='text-xs text-gray-500'>Ví dụ: Elon Musk is a famous entrepreneur.</em>" },
-  { word: "Profession", ipa: "/prəˈfeʃn/ (n)", meaning: "<strong>Nghề nghiệp chuyên môn</strong> (bác sĩ, luật sư...).<br/><em class='text-xs text-gray-500'>Professional (adj) = chuyên nghiệp.</em>" },
-  { word: "Skill", ipa: "/skɪl/ (n)", meaning: "<strong>Kỹ năng</strong>.<br/><em class='text-xs text-gray-500'>Ví dụ: Communication skills are important at work.</em>" },
-  { word: "Volunteer", ipa: "/ˌvɒlənˈtɪər/ (n/v)", meaning: "<strong>Tình nguyện viên / Tình nguyện</strong>.<br/><em class='text-xs text-gray-500'>Ví dụ: She volunteered at a local school.</em>" },
+  { word: "Tailor", ipa: "/ˈteɪlər/ (n)", meaning: "<strong>Thợ may</strong>. Người may quần áo theo yêu cầu.<br/><em class='text-xs text-gray-500'>Ví dụ: The tailor made a beautiful dress.</em>" },
+  { word: "Surgeon", ipa: "/ˈsɜːdʒən/ (n)", meaning: "<strong>Bác sĩ phẫu thuật</strong>. Bác sĩ thực hiện ca mổ.<br/><em class='text-xs text-gray-500'>Liên quan: Surgery (n) = phẫu thuật.</em>" },
+  { word: "Assembly Worker", ipa: "/əˈsembli ˈwɜːkər/ (n)", meaning: "<strong>Công nhân lắp ráp</strong>. Người lắp ráp sản phẩm tại nhà máy.<br/><em class='text-xs text-gray-500'>Ví dụ: Assembly workers in a car factory.</em>" },
+  { word: "Cashier", ipa: "/kæˈʃɪər/ (n)", meaning: "<strong>Thu ngân</strong>. Người tính tiền tại quầy.<br/><em class='text-xs text-gray-500'>Ví dụ: The cashier gave me my change.</em>" },
+  { word: "Demanding", ipa: "/dɪˈmɑːndɪŋ/ (adj)", meaning: "<strong>Đòi hỏi khắt khe</strong>. Cần nhiều nỗ lực và kỹ năng.<br/><em class='text-xs text-gray-500'>Đồng nghĩa: Challenging. Ví dụ: A demanding job.</em>" },
+  { word: "Repetitive", ipa: "/rɪˈpetətɪv/ (adj)", meaning: "<strong>Lặp đi lặp lại</strong>. Công việc cùng một kiểu.<br/><em class='text-xs text-gray-500'>Ví dụ: Factory work can be repetitive.</em>" },
+  { word: "Well-paid", ipa: "/ˌwel ˈpeɪd/ (adj)", meaning: "<strong>Lương cao</strong>. Được trả lương tốt.<br/><em class='text-xs text-gray-500'>Đối lập: Poorly-paid (lương thấp).</em>" },
+  { word: "Rewarding", ipa: "/rɪˈwɔːdɪŋ/ (adj)", meaning: "<strong>Đáng bõ công, xứng đáng</strong>. Mang lại sự hài lòng.<br/><em class='text-xs text-gray-500'>Ví dụ: Teaching is a rewarding career.</em>" },
 ];
 
 const unit12Exercises: ExerciseItem[] = [
-  { id: 1, question: "Direct: 'What do you want to be in the future?'<br/>Reported: He asked me _______ in the future.", answer: "<strong>what I wanted to be</strong>.<br/>(Wh-question → giữ từ hỏi 'what' + S + V lùi thì: want → wanted. Không đảo ngữ.)" },
-  { id: 2, question: "Direct: 'Where did you study English?'<br/>Reported: She asked me _______ English.", answer: "<strong>where I had studied</strong>.<br/>(Wh-question + lùi thì: did study → had studied.)" },
-  { id: 3, question: "Which word has STRESS on the SECOND syllable?<br/>A. CA-reer B. IN-tern C. SA-la-ry D. VOL-un-teer", answer: "<strong>A. ca-REER</strong>. Nhấn âm 2. Các từ: IN-tern (âm 1), SA-la-ry (âm 1), vol-un-TEER (âm 3)." },
-  { id: 4, question: "She asked where _______ my application.<br/>A. did I send B. I had sent C. I send D. have I sent", answer: "<strong>B. I had sent</strong>.<br/>(Wh-question gián tiếp: giữ trật tự S + V, lùi thì: sent → had sent.)" },
+  { id: 1, question: "_______ the job is demanding, she still loves it.<br/>(Mệnh đề trạng ngữ chỉ nhượng bộ)", answer: "<strong>Although / Though</strong>.<br/>(Mệnh đề nhượng bộ: Although/Though + S + V = Mặc dù...)" },
+  { id: 2, question: "The exam was _______ difficult _______ many students failed.", answer: "<strong>so ... that</strong>.<br/>(so + adj + that = quá... đến nỗi mà: so difficult that...)" },
+  { id: 3, question: "It was _______ a good opportunity _______ she couldn't refuse it.", answer: "<strong>such ... that</strong>.<br/>(such + a/an + adj + noun + that: such a good opportunity that...)" },
+  { id: 4, question: "He became a surgeon _______ he wanted to save lives.<br/>(Mệnh đề trạng ngữ chỉ nguyên nhân)", answer: "<strong>because / since</strong>.<br/>(Mệnh đề nguyên nhân: Because/Since + S + V = Bởi vì...)" },
 ];
 
 const review4Exercises: ExerciseItem[] = [
-  { id: 1, question: "If we _______ more trees, the air _______ cleaner.<br/>A. plant / will be B. planted / would be C. plants / would D. planting / is", answer: "<strong>A. plant / will be</strong>. (Conditional Type 1 – khả năng thực tế)." },
-  { id: 2, question: "Direct: 'Why are you late?' → She asked me _______.", answer: "<strong>why I was late / why I had been late</strong>.<br/>(Wh-question gián tiếp: why + S + V lùi thì.)" },
-  { id: 3, question: "If I _______ (have) enough money, I _______ (travel) around the world.", answer: "<strong>had / would travel</strong>. (Conditional Type 2 – điều kiện không thực ở hiện tại.)" },
-  { id: 4, question: "The _______ is a professional who treats patients.<br/>A. volunteer B. entrepreneur C. doctor D. internship", answer: "<strong>C. doctor</strong>. Profession = nghề chuyên môn. Volunteer, entrepreneur là danh từ khác, internship là danh từ sự vật." },
-  { id: 5, question: "Choose the correct form: If the Earth's temperature _______ (rise) by 2°C, many islands _______ (disappear).", answer: "<strong>rises / will disappear</strong>. (Conditional Type 1)" },
-  { id: 6, question: "Direct: 'How many planets are in the Solar System?'<br/>Reported: The teacher asked _______ in the Solar System.", answer: "<strong>how many planets there were / how many planets were</strong>.<br/>(Wh-question gián tiếp: how many + noun + S + V lùi thì.)" },
+  { id: 1, question: "The Mekong Delta, _______ is in southern Vietnam, has a rich ecosystem.", answer: "<strong>which</strong>.<br/>(Non-defining clause có dấu phẩy → dùng which, KHÔNG dùng that. Unit 10)" },
+  { id: 2, question: "He suggested _______ (buy) a smartwatch for exercise.", answer: "<strong>buying</strong>.<br/>(suggest + V-ing. Unit 11)" },
+  { id: 3, question: "_______ the work is repetitive, the factory workers still enjoy it.", answer: "<strong>Although / Though</strong>.<br/>(Adverbial clause of concession. Unit 12)" },
+  { id: 4, question: "The teacher recommended that we _______ (read) more about ecosystems.", answer: "<strong>(should) read</strong>.<br/>(recommend + that + S + (should) + V. Unit 11)" },
+  { id: 5, question: "She was _______ talented _______ she got the job immediately.", answer: "<strong>so ... that</strong>.<br/>(so + adj + that = quá... đến nỗi. Unit 12)" },
+  { id: 6, question: "Cat Ba Island, _______ beaches are beautiful, attracts many tourists.", answer: "<strong>whose</strong>.<br/>(Non-defining clause: whose + noun. Unit 10)" },
 ];
 
-// New quiz questions for Unit 10, 11, 12, Review 4
 const newQuizQuestions: QuizQuestion[] = [
-  // Unit 10 – Vocabulary
-  { id: 41, question: "A person who travels to space is called an _______.", options: ["astronomer", "astronaut", "explorer", "navigator"], correct: 1, explanation: "Astronaut = phi hành gia.", unit: 10 },
-  { id: 42, question: "The path of a planet around the Sun is its _______.", options: ["satellite", "atmosphere", "orbit", "galaxy"], correct: 2, explanation: "Orbit = quỹ đạo.", unit: 10 },
-  { id: 43, question: "The Moon is a natural _______ of Earth.", options: ["telescope", "satellite", "planet", "orbit"], correct: 1, explanation: "Satellite = vệ tinh. The Moon is Earth's natural satellite.", unit: 10 },
-  { id: 44, question: "Scientists use a _______ to observe distant stars.", options: ["telescope", "satellite", "galaxy", "atmosphere"], correct: 0, explanation: "Telescope = kính thiên văn.", unit: 10 },
-  { id: 45, question: "Astronauts feel _______ because there is no gravity in space.", options: ["amazing", "weightless", "solar", "orbital"], correct: 1, explanation: "Weightless = không trọng lực.", unit: 10 },
-  // Unit 10 – Grammar (Conditional Type 1)
-  { id: 46, question: "If we _______ more trees, the air will be cleaner.", options: ["plant", "planted", "will plant", "planting"], correct: 0, explanation: "Conditional Type 1: If + V (hiện tại đơn), will + V. Điều kiện có thể xảy ra.", unit: 10 },
-  { id: 47, question: "If it _______ tomorrow, we won't go to the beach.", options: ["rain", "rains", "will rain", "rained"], correct: 1, explanation: "Conditional Type 1: If + V (hiện tại đơn).", unit: 10 },
-  { id: 48, question: "She _______ the exam if she studies hard.", options: ["pass", "passes", "will pass", "would pass"], correct: 2, explanation: "Main clause dùng will + V (Type 1).", unit: 10 },
-  // Unit 10 – Phonetics (/ʃ/ vs /tʃ/)
-  { id: 49, question: "Which word has the /ʃ/ sound?", options: ["cheese", "chain", "shore", "children"], correct: 2, explanation: "Shore /ʃɔːr/ có âm /ʃ/. Các từ còn lại có âm /tʃ/.", unit: 10 },
-  { id: 50, question: "Which word has the /tʃ/ sound?", options: ["shoe", "shape", "chef", "champion"], correct: 3, explanation: "Champion /ˈtʃæmpiən/ có âm /tʃ/. Shoe, shape, chef có âm /ʃ/.", unit: 10 },
+  // Unit 10 – Planet Earth – Vocabulary
+  { id: 41, question: "A protected area for wildlife is called a _______.", options: ["grassland", "nature reserve", "habitat loss", "ecosystem"], correct: 1, explanation: "Nature reserve = khu bảo tồn thiên nhiên.", unit: 10 },
+  { id: 42, question: "The plants of a region are called its _______.", options: ["fauna", "species", "flora", "ecosystem"], correct: 2, explanation: "Flora = hệ thực vật.", unit: 10 },
+  { id: 43, question: "The animals of a region are called its _______.", options: ["flora", "fauna", "grassland", "habitat"], correct: 1, explanation: "Fauna = hệ động vật.", unit: 10 },
+  { id: 44, question: "When animals lose their natural homes, it's called _______.", options: ["ecological balance", "nature reserve", "habitat loss", "grassland"], correct: 2, explanation: "Habitat loss = mất môi trường sống.", unit: 10 },
+  { id: 45, question: "A community of living things and their environment is an _______.", options: ["ecosystem", "species", "flora", "fauna"], correct: 0, explanation: "Ecosystem = hệ sinh thái.", unit: 10 },
+  // Unit 10 – Grammar (Non-defining relative clauses)
+  { id: 46, question: "Earth, _______ is the third planet from the Sun, has one moon.", options: ["that", "which", "who", "whose"], correct: 1, explanation: "Non-defining clause (có dấu phẩy) → dùng which, KHÔNG dùng that.", unit: 10 },
+  { id: 47, question: "Dr. Goodall, _______ studies chimps, won many awards.", options: ["which", "that", "who", "whose"], correct: 2, explanation: "Who thay thế cho người trong non-defining clause.", unit: 10 },
+  { id: 48, question: "The coral reef, _______ area is shrinking, needs protection.", options: ["who", "which", "that", "whose"], correct: 3, explanation: "Whose chỉ sở hữu: 'diện tích của rạn san hô'.", unit: 10 },
+  // Unit 10 – Phonetics (Rhythm)
+  { id: 49, question: "In English rhythm, which words are usually STRESSED?", options: ["Articles and prepositions", "Content words (nouns, verbs, adjectives)", "Pronouns only", "All words equally"], correct: 1, explanation: "Nhịp điệu: Từ mang nghĩa chính (content words) được nhấn.", unit: 10 },
+  { id: 50, question: "Which type of word is usually UNSTRESSED in a sentence?", options: ["Nouns", "Verbs", "Adjectives", "Articles (a, an, the)"], correct: 3, explanation: "Function words (articles, prepositions) thường không nhấn.", unit: 10 },
 
-  // Unit 11 – Vocabulary
-  { id: 51, question: "The process of people moving from rural to urban areas is called _______.", options: ["deforestation", "urbanization", "globalization", "migration"], correct: 1, explanation: "Urbanization = đô thị hóa.", unit: 11 },
-  { id: 52, question: "Solar and wind power are examples of _______ energy.", options: ["fossil", "nuclear", "renewable", "sustainable"], correct: 2, explanation: "Renewable energy = năng lượng tái tạo.", unit: 11 },
-  { id: 53, question: "Carbon _______ from factories are causing global warming.", options: ["migration", "emissions", "populations", "urbanization"], correct: 1, explanation: "Emissions = khí thải.", unit: 11 },
-  { id: 54, question: "The destruction of forests is called _______.", options: ["migration", "urbanization", "deforestation", "pollution"], correct: 2, explanation: "Deforestation = nạn phá rừng.", unit: 11 },
-  { id: 55, question: "_______ connects countries through trade, culture and technology.", options: ["Deforestation", "Urbanization", "Poverty", "Globalization"], correct: 3, explanation: "Globalization = toàn cầu hóa.", unit: 11 },
-  // Unit 11 – Grammar (Conditional Type 2)
-  { id: 56, question: "If I _______ a scientist, I would find a cure for cancer.", options: ["am", "was", "were", "will be"], correct: 2, explanation: "Conditional Type 2: If + were (dùng 'were' cho mọi chủ ngữ).", unit: 11 },
-  { id: 57, question: "If people used less plastic, there _______ less pollution.", options: ["will be", "is", "would be", "were"], correct: 2, explanation: "Conditional Type 2: Main clause dùng would + V.", unit: 11 },
-  { id: 58, question: "She _______ happier if she had a better job. (Type 2)", options: ["is", "would be", "will be", "was"], correct: 1, explanation: "Type 2 main clause: would + V.", unit: 11 },
-  // Unit 11 – Phonetics (Linking sounds)
-  { id: 59, question: "In the phrase 'turn off', how is 'n' pronounced with 'o'?", options: ["separately", "linked as /nɒ/", "silent", "as /nf/"], correct: 1, explanation: "Linking sound: phụ âm cuối nối với nguyên âm đầu: 'turn_off' → /tɜːn ɒf/.", unit: 11 },
-  { id: 60, question: "Which phrase has a clear linking sound?", options: ["look_back", "an_apple", "big_car", "run_fast"], correct: 1, explanation: "'an apple' /æ-ˈnæpl/ – âm /n/ nối với nguyên âm /æ/.", unit: 11 },
+  // Unit 11 – Electronic Devices – Vocabulary
+  { id: 51, question: "A device that can print 3D objects is called a _______.", options: ["camcorder", "e-reader", "3D printer", "smartwatch"], correct: 2, explanation: "3D printer = máy in 3D.", unit: 11 },
+  { id: 52, question: "A watch that connects to your phone is a _______.", options: ["camcorder", "smartwatch", "e-reader", "gadget"], correct: 1, explanation: "Smartwatch = đồng hồ thông minh.", unit: 11 },
+  { id: 53, question: "_______ is a metal used to make electrical wires.", options: ["Rubber", "Silicon", "Copper", "Plastic"], correct: 2, explanation: "Copper = đồng (kim loại), dùng làm dây điện.", unit: 11 },
+  { id: 54, question: "A small electronic device is often called a _______.", options: ["gadget", "rubber", "copper", "flora"], correct: 0, explanation: "Gadget = thiết bị nhỏ, đồ công nghệ.", unit: 11 },
+  { id: 55, question: "_______ is used to cover wires for safety.", options: ["Copper", "Silicon", "Rubber", "Metal"], correct: 2, explanation: "Rubber = cao su, chất cách điện.", unit: 11 },
+  // Unit 11 – Grammar (suggest/advise/recommend)
+  { id: 56, question: "She suggested _______ a new laptop.", options: ["buy", "to buy", "buying", "bought"], correct: 2, explanation: "suggest + V-ing.", unit: 11 },
+  { id: 57, question: "They recommended that he _______ give up writing.", options: ["should", "would", "could", "might"], correct: 0, explanation: "recommend + that + S + should + V.", unit: 11 },
+  { id: 58, question: "The teacher advised _______ phones in class.", options: ["not using", "not to use", "don't use", "not use"], correct: 0, explanation: "advise + V-ing → advise not using.", unit: 11 },
+  // Unit 11 – Phonetics (Stress on all words in commands)
+  { id: 59, question: "In 'DON'T TALK!', how are the words stressed?", options: ["Only 'don't' is stressed", "Only 'talk' is stressed", "Both words are stressed", "Neither is stressed"], correct: 2, explanation: "Câu khẩu lệnh ngắn: nhấn TẤT CẢ các từ.", unit: 11 },
+  { id: 60, question: "Which is an example of stressing ALL words?", options: ["I want to go home", "KEEP SILENT!", "She is a teacher", "He likes reading"], correct: 1, explanation: "KEEP SILENT! - Câu khẩu lệnh ngắn nhấn tất cả.", unit: 11 },
 
-  // Unit 12 – Vocabulary
-  { id: 61, question: "A _______ is someone who starts their own business.", options: ["volunteer", "entrepreneur", "professional", "intern"], correct: 1, explanation: "Entrepreneur = doanh nhân, người khởi nghiệp.", unit: 12 },
-  { id: 62, question: "She did an _______ at a law firm during her summer holiday.", options: ["application", "interview", "internship", "qualification"], correct: 2, explanation: "Internship = kỳ thực tập.", unit: 12 },
-  { id: 63, question: "You need to send an _______ form to apply for the job.", options: ["internship", "application", "salary", "career"], correct: 1, explanation: "Application = đơn xin việc.", unit: 12 },
-  { id: 64, question: "His monthly _______ is enough to support his family.", options: ["career", "skill", "salary", "profession"], correct: 2, explanation: "Salary = lương tháng (cố định).", unit: 12 },
-  { id: 65, question: "She _______ at a local hospital to gain experience.", options: ["applied", "interviewed", "volunteered", "launched"], correct: 2, explanation: "Volunteer = tình nguyện.", unit: 12 },
-  // Unit 12 – Grammar (Reported Wh-Questions)
-  { id: 66, question: "'What is your dream job?' → She asked me _______ my dream job.", options: ["what is", "what was", "what my", "what I wanted to be"], correct: 3, explanation: "Wh-question gián tiếp: what + S + V (lùi thì). 'what I wanted...' is correct.", unit: 12 },
-  { id: 67, question: "'Where do you live?' → He asked me _______ I lived.", options: ["where", "that where", "if where", "whether where"], correct: 0, explanation: "Wh-question gián tiếp: where + S + V.", unit: 12 },
-  { id: 68, question: "'How long have you worked here?' → She asked how long I _______ there.", options: ["have worked", "work", "had worked", "worked"], correct: 2, explanation: "Lùi thì: Present perfect → Past perfect: have worked → had worked.", unit: 12 },
-  // Unit 12 – Phonetics (Sentence stress)
-  { id: 69, question: "In the sentence 'I WANT to BE a DOC-tor', which words are stressed?", options: ["want, be, doctor", "I, to, a", "want, be", "I, doctor"], correct: 0, explanation: "Trong câu, từ mang nghĩa chính (content words) được nhấn: want, be, doctor.", unit: 12 },
+  // Unit 12 – Career Choices – Vocabulary
+  { id: 61, question: "A person who makes clothes is a _______.", options: ["cashier", "surgeon", "tailor", "assembly worker"], correct: 2, explanation: "Tailor = thợ may.", unit: 12 },
+  { id: 62, question: "A doctor who performs operations is a _______.", options: ["cashier", "surgeon", "tailor", "assembly worker"], correct: 1, explanation: "Surgeon = bác sĩ phẫu thuật.", unit: 12 },
+  { id: 63, question: "A job that requires a lot of effort is _______.", options: ["repetitive", "well-paid", "demanding", "rewarding"], correct: 2, explanation: "Demanding = đòi hỏi khắt khe.", unit: 12 },
+  { id: 64, question: "A job where you do the same thing repeatedly is _______.", options: ["demanding", "well-paid", "rewarding", "repetitive"], correct: 3, explanation: "Repetitive = lặp đi lặp lại.", unit: 12 },
+  { id: 65, question: "A person who handles money at a store is a _______.", options: ["tailor", "surgeon", "assembly worker", "cashier"], correct: 3, explanation: "Cashier = thu ngân.", unit: 12 },
+  // Unit 12 – Grammar (Adverbial clauses)
+  { id: 66, question: "_______ the job is demanding, she still loves it.", options: ["Because", "So", "Although", "Such"], correct: 2, explanation: "Although = mặc dù (concession).", unit: 12 },
+  { id: 67, question: "The test was _______ hard that nobody passed.", options: ["so", "such", "although", "because"], correct: 0, explanation: "so + adj + that = quá... đến nỗi.", unit: 12 },
+  { id: 68, question: "He chose this career _______ he loves helping people.", options: ["although", "so", "such", "because"], correct: 3, explanation: "Because = bởi vì (reason).", unit: 12 },
+  // Unit 12 – Phonetics (Intonation)
+  { id: 69, question: "'I want to be a doctor.' → 'You want to be a doctor?' How does the voice change?", options: ["Falls at the end", "Rises at the end", "Stays flat", "Falls then rises"], correct: 1, explanation: "Lên giọng cuối câu trần thuật dùng làm câu hỏi.", unit: 12 },
 
   // Review 4 – Mixed Unit 10–12
-  { id: 70, question: "If the robot _______ all our homework, we _______ more time to play.", options: ["does / will have", "did / would have", "do / would have", "did / will have"], correct: 1, explanation: "Conditional Type 2 (giả định không thực): If + V2 (did), would + V.", unit: 99 },
+  { id: 70, question: "The Mekong Delta, _______ produces lots of rice, is in southern Vietnam.", options: ["that", "which", "who", "whose"], correct: 1, explanation: "Non-defining clause → which (không dùng that).", unit: 99 },
 ];
 
 // Extend the exported arrays
@@ -772,15 +769,15 @@ export { allQuizQuestions as extendedQuiz };
 const unit10Lessons: Lesson[] = [
   {
     id: 11,
-    title: "Unit 10: Từ vựng Không gian",
+    title: "Unit 10: Từ vựng Trái Đất",
     unit: 10,
-    icon: Rocket,
+    icon: Globe,
     color: "from-sky-500 to-blue-600",
     content: (
       <div>
         <div className="bg-sky-50 p-6 rounded-2xl mb-8 border border-sky-100">
-          <h2 className="text-2xl font-bold text-sky-800 mb-2">Space & Science</h2>
-          <p className="text-sky-700">Từ vựng về vũ trụ, thiên văn học và khoa học không gian.</p>
+          <h2 className="text-2xl font-bold text-sky-800 mb-2">Planet Earth</h2>
+          <p className="text-sky-700">Từ vựng về Trái Đất, môi trường sống, hệ thực vật và động vật.</p>
         </div>
         <VocabTable items={unit10Vocab} colorTheme="bg-gradient-to-r from-sky-500 to-blue-600" />
       </div>
@@ -788,46 +785,50 @@ const unit10Lessons: Lesson[] = [
   },
   {
     id: 12,
-    title: "Unit 10: Ngữ pháp Câu điều kiện loại 1",
+    title: "Unit 10: Ngữ pháp Mệnh đề quan hệ không xác định",
     unit: 10,
-    icon: Zap,
+    icon: BookOpen,
     color: "from-blue-500 to-indigo-600",
     content: (
       <div>
         <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-8">
-          <p className="text-blue-800 font-bold">Conditional Type 1 (Câu điều kiện loại 1)</p>
-          <p className="text-blue-700 text-sm mt-1">Cấu trúc: <strong>If + V (hiện tại đơn), will + V (nguyên thể)</strong></p>
+          <p className="text-blue-800 font-bold">Non-defining Relative Clauses (Mệnh đề quan hệ không xác định)</p>
+          <p className="text-blue-700 text-sm mt-1">Bổ sung thông tin, bỏ đi câu vẫn có nghĩa. Luôn có <strong>dấu phẩy</strong>.</p>
         </div>
         <GrammarBox
-          title="Câu điều kiện loại 1 – Có thể xảy ra"
+          title="Mệnh đề quan hệ KHÔNG xác định"
           color="bg-blue-600"
           rule={
             <div className="space-y-2 text-sm md:text-base">
-              <p><strong>If + S + V (V-s/es), S + will + V</strong></p>
-              <p className="text-gray-500">Dùng khi điều kiện CÓ THỂ xảy ra trong thực tế.</p>
+              <p><strong>S, + who/which/whose + V, + V chính</strong></p>
+              <p className="text-gray-500">Luôn dùng dấu phẩy. KHÔNG dùng 'that'. KHÔNG lược bỏ đại từ quan hệ.</p>
               <div className="grid grid-cols-2 gap-2 border-t pt-2 mt-2">
-                <span className="font-semibold">Mệnh đề If</span>
-                <span className="font-semibold text-blue-600">Mệnh đề kết quả</span>
+                <span className="font-semibold">Đặc điểm</span>
+                <span className="font-semibold text-blue-600">Giải thích</span>
               </div>
               <div className="grid grid-cols-2 gap-2">
-                <span>If it rains,</span>
-                <span>I will stay home.</span>
+                <span>Dấu phẩy (,)</span>
+                <span>Luôn có trước và sau mệnh đề</span>
               </div>
               <div className="grid grid-cols-2 gap-2">
-                <span>If she studies,</span>
-                <span>she will pass.</span>
+                <span>Không dùng THAT</span>
+                <span>Chỉ dùng who/which/whose</span>
+              </div>
+              <div className="grid grid-cols-2 gap-2">
+                <span>Không lược bỏ</span>
+                <span>Đại từ quan hệ không thể bỏ</span>
               </div>
             </div>
           }
           examples={[
             {
-              correct: "If we plant more trees, the air will be cleaner.",
-              incorrect: "If we will plant more trees, the air will be cleaner.",
-              explain: "Mệnh đề If KHÔNG dùng will. Dùng thì hiện tại đơn."
+              correct: "Earth, which is the third planet from the Sun, depends on the Sun.",
+              incorrect: "Earth, that is the third planet...",
+              explain: "Non-defining clause KHÔNG dùng 'that', phải dùng 'which'."
             },
             {
-              correct: "If he doesn't hurry, he'll miss the rocket launch.",
-              explain: "Phủ định: If + don't/doesn't + V."
+              correct: "Dr. Goodall, who has studied chimps, is famous.",
+              explain: "Who cho người. Dấu phẩy ngăn cách = non-defining."
             }
           ]}
         />
@@ -839,28 +840,31 @@ const unit10Lessons: Lesson[] = [
   },
   {
     id: 13,
-    title: "Unit 10: Ngữ âm /ʃ/ và /tʃ/",
+    title: "Unit 10: Nhịp điệu trong câu (Rhythm)",
     unit: 10,
     icon: Mic,
     color: "from-indigo-500 to-violet-600",
     content: (
       <div>
-        <h2 className="text-2xl font-bold text-indigo-800 mb-6">Âm /ʃ/ (sh) và /tʃ/ (ch)</h2>
+        <h2 className="text-2xl font-bold text-indigo-800 mb-6">Nhịp điệu trong câu (Rhythm)</h2>
+        <div className="bg-indigo-50 p-4 rounded-xl mb-6 text-indigo-800">
+          Nhịp điệu trong tiếng Anh được tạo ra bởi sự kết hợp giữa các âm tiết <strong>có nhấn</strong> (stressed) và <strong>không nhấn</strong> (unstressed).
+        </div>
         <div className="grid md:grid-cols-2 gap-6">
           <PhoneticCard
-            pair="/ʃ/"
-            words={["shore", "ship", "shine", "shower", "shelf", "chef"]}
-            tip="Âm /ʃ/ = 'sh'. Môi tròn, hơi thoát ra nhẹ, không rung họng."
+            pair="Stressed"
+            words={["NOUNS: earth, forest", "VERBS: protect, destroy", "ADJ: natural, diverse", "ADV: quickly, slowly"]}
+            tip="Content words (từ mang nghĩa) được nhấn mạnh."
           />
           <PhoneticCard
-            pair="/tʃ/"
-            words={["cheese", "chain", "church", "champion", "challenge", "children"]}
-            tip="Âm /tʃ/ = 'ch'. Bắt đầu bằng /t/ rồi chuyển nhanh sang /ʃ/."
+            pair="Unstressed"
+            words={["articles: a, an, the", "prepositions: in, on, at", "auxiliaries: is, are, was", "pronouns: it, he, she"]}
+            tip="Function words (từ chức năng) đọc nhanh, nhẹ."
           />
         </div>
         <div className="mt-8 bg-indigo-50 p-6 rounded-xl border border-indigo-100 text-center">
-          <p className="font-bold text-indigo-900 text-lg mb-2">So sánh cặp tối thiểu</p>
-          <p className="text-lg font-medium text-indigo-600"><strong className="text-indigo-800">sh</strong>are vs <strong className="text-indigo-800">ch</strong>air | <strong className="text-indigo-800">sh</strong>op vs <strong className="text-indigo-800">ch</strong>op | <strong className="text-indigo-800">sh</strong>oe vs <strong className="text-indigo-800">ch</strong>ew</p>
+          <p className="font-bold text-indigo-900 text-lg mb-2">Ví dụ nhịp điệu</p>
+          <p className="text-lg font-medium text-indigo-600">The <strong className="text-indigo-800">EARTH</strong> de<strong className="text-indigo-800">PENDS</strong> on the <strong className="text-indigo-800">SUN</strong> for its <strong className="text-indigo-800">EN</strong>er-gy.</p>
         </div>
       </div>
     )
