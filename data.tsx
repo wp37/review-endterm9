@@ -538,26 +538,26 @@ export const lessons: Lesson[] = [
   },
   {
     id: 8,
-    title: "Unit 9: Trọng âm từ 3 âm tiết",
+    title: "Unit 9: Trọng âm đuôi -ion & -ity",
     unit: 9,
     icon: Mic,
     color: "from-fuchsia-500 to-pink-500",
     content: (
       <div>
-        <h2 className="text-2xl font-bold text-fuchsia-800 mb-6">Trọng âm từ có 3 âm tiết</h2>
+        <h2 className="text-2xl font-bold text-fuchsia-800 mb-6">Trọng âm từ kết thúc bằng -ion & -ity</h2>
         <div className="bg-fuchsia-50 p-4 rounded-xl mb-6 text-fuchsia-800">
-          Quy tắc: Từ 3 âm tiết thường nhấn âm đầu nếu là <strong>danh từ / tính từ</strong>, và nhấn âm 2 nếu là <strong>động từ</strong>.
+          Quy tắc: Đối với từ kết thúc bằng đuôi <strong>-ion</strong> hoặc <strong>-ity</strong>, trọng âm luôn rơi vào âm tiết <strong>ngay trước</strong> nó.
         </div>
         <div className="grid md:grid-cols-2 gap-6">
           <PhoneticCard
-            pair="Nhấn âm 1"
-            words={["BEau-ti-ful", "DIF-fi-cult", "LAN-gua-ges", "VA-ri-ous", "IN-te-rest"]}
-            tip="Danh từ & Tính từ 3 âm tiết thường nhấn âm đầu."
+            pair="Suffix -ION"
+            words={["re-LA-tion", "e-du-CA-tion", "in-for-MA-tion", "pro-NUN-ci-a-tion", "com-mu-ni-CA-tion"]}
+            tip="Nhấn vào âm tiết ngay trước -ion."
           />
           <PhoneticCard
-            pair="Nhấn âm 2"
-            words={["bi-LIN-gual", "of-FI-cial", "ac-CES-si-ble", "am-BI-tious", "im-POR-tant"]}
-            tip="Một số tính từ & danh từ nhấn âm 2 (ngoại lệ)."
+            pair="Suffix -ITY"
+            words={["CHA-ri-ty", "a-BI-li-ty", "ac-TI-vi-ty", "per-so-NA-li-ty", "u-ni-VER-si-ty"]}
+            tip="Nhấn vào âm tiết ngay trước -ity."
           />
         </div>
       </div>
@@ -641,51 +641,47 @@ export const lessons: Lesson[] = [
 ];
 
 // =====================================================
-// UNIT 10 – SPACE & SCIENCE (Không gian & Khoa học)
+// UNIT 10 – PLANET EARTH (Trái Đất)
 // =====================================================
 
 const unit10Vocab: VocabItem[] = [
-  { word: "Astronaut", ipa: "/ˈæstrənɔːt/ (n)", meaning: "<strong>Phi hành gia</strong>. Người du hành vào vũ trụ.<br/><em class='text-xs text-gray-500'>Ví dụ: Neil Armstrong was the first astronaut to walk on the Moon.</em>" },
-  { word: "Galaxy", ipa: "/ˈɡæləksi/ (n)", meaning: "<strong>Thiên hà</strong>. Tập hợp hàng tỷ ngôi sao.<br/><em class='text-xs text-gray-500'>Ví dụ: The Milky Way is our galaxy.</em>" },
-  { word: "Orbit", ipa: "/ˈɔːrbɪt/ (n/v)", meaning: "<strong>Quỹ đạo / Quay quanh</strong>.<br/><em class='text-xs text-gray-500'>Ví dụ: The Earth orbits the Sun every 365 days.</em>" },
-  { word: "Satellite", ipa: "/ˈsætəlaɪt/ (n)", meaning: "<strong>Vệ tinh</strong> (thiên nhiên hoặc nhân tạo).<br/><em class='text-xs text-gray-500'>Ví dụ: The Moon is Earth's natural satellite.</em>" },
-  { word: "Weightless", ipa: "/ˈweɪtləs/ (adj)", meaning: "<strong>Không trọng lực</strong>.<br/><em class='text-xs text-gray-500'>Ví dụ: Astronauts feel weightless in space.</em>" },
-  { word: "Launch", ipa: "/lɔːntʃ/ (v)", meaning: "<strong>Phóng</strong> (tên lửa, vệ tinh).<br/><em class='text-xs text-gray-500'>Ví dụ: NASA launched a rocket to Mars.</em>" },
-  { word: "Exploration", ipa: "/ˌekspləˈreɪʃn/ (n)", meaning: "<strong>Sự khám phá</strong> (vũ trụ).<br/><em class='text-xs text-gray-500'>Liên quan: Explore (v), Explorer (n).</em>" },
-  { word: "Solar System", ipa: "/ˈsəʊlər ˈsɪstəm/ (n)", meaning: "<strong>Hệ mặt trời</strong>.<br/><em class='text-xs text-gray-500'>Gồm Mặt Trời và 8 hành tinh.</em>" },
-  { word: "Telescope", ipa: "/ˈtelɪskəʊp/ (n)", meaning: "<strong>Kính thiên văn</strong>. Dụng cụ quan sát thiên thể.<br/><em class='text-xs text-gray-500'>Ví dụ: He looked at the stars through a telescope.</em>" },
-  { word: "Atmosphere", ipa: "/ˈætməsfɪər/ (n)", meaning: "<strong>Bầu khí quyển</strong>. Lớp không khí bao quanh Trái Đất.<br/><em class='text-xs text-gray-500'>Ví dụ: The atmosphere protects us from radiation.</em>" },
+  { word: "Nature Reserve", ipa: "/ˈneɪtʃər rɪˈzɜːv/ (n)", meaning: "<strong>Khu bảo tồn thiên nhiên</strong>. Khu vực được bảo vệ để giữ nguyên hệ sinh thái.<br/><em class='text-xs text-gray-500'>Ví dụ: Cuc Phuong is a nature reserve in Vietnam.</em>" },
+  { word: "Ecological Balance", ipa: "/ˌiːkəˈlɒdʒɪkl ˈbæləns/ (n)", meaning: "<strong>Cân bằng sinh thái</strong>. Trạng thái ổn định giữa các sinh vật.<br/><em class='text-xs text-gray-500'>Ví dụ: We must maintain the ecological balance.</em>" },
+  { word: "Habitat Loss", ipa: "/ˈhæbɪtæt lɒs/ (n)", meaning: "<strong>Mất môi trường sống</strong>. Khi nơi ở tự nhiên bị phá hủy.<br/><em class='text-xs text-gray-500'>Nguyên nhân: Deforestation, urbanization.</em>" },
+  { word: "Grassland", ipa: "/ˈɡrɑːslænd/ (n)", meaning: "<strong>Đồng cỏ</strong>. Vùng đất rộng phủ đầy cỏ.<br/><em class='text-xs text-gray-500'>Ví dụ: African grasslands are home to many animals.</em>" },
+  { word: "Flora", ipa: "/ˈflɔːrə/ (n)", meaning: "<strong>Hệ thực vật</strong>. Tất cả các loại cây, hoa trong một vùng.<br/><em class='text-xs text-gray-500'>Hay đi với: Flora and fauna (hệ động thực vật).</em>" },
+  { word: "Fauna", ipa: "/ˈfɔːnə/ (n)", meaning: "<strong>Hệ động vật</strong>. Tất cả các loài động vật trong một vùng.<br/><em class='text-xs text-gray-500'>Ví dụ: The fauna of this island is diverse.</em>" },
+  { word: "Species", ipa: "/ˈspiːʃiːz/ (n)", meaning: "<strong>Loài</strong>. Nhóm sinh vật có đặc điểm chung.<br/><em class='text-xs text-gray-500'>Chú ý: Species (số ít) = Species (số nhiều).</em>" },
+  { word: "Ecosystem", ipa: "/ˈiːkəʊsɪstəm/ (n)", meaning: "<strong>Hệ sinh thái</strong>. Cộng đồng sinh vật + môi trường sống.<br/><em class='text-xs text-gray-500'>Ví dụ: Coral reefs are important ecosystems.</em>" },
 ];
 
 const unit10Exercises: ExerciseItem[] = [
-  { id: 1, question: "If we _______ (travel) to Mars, we _______ (need) a very powerful rocket.", answer: "<strong>travel / will need</strong>.<br/>(Conditional Type 1: If + V (hiện tại đơn), will + V nguyên thể. Điều kiện có thể xảy ra.)" },
-  { id: 2, question: "If scientists _______ (find) water on Mars, it _______ (be) a historic discovery.", answer: "<strong>find / will be</strong>.<br/>(Conditional Type 1 – kết quả tương lai có khả năng xảy ra.)" },
-  { id: 3, question: "Phonetics: Choose word with /ʃ/ sound:<br/>A. <strong>Ch</strong>ess B. <strong>Sh</strong>ip C. <strong>Ch</strong>eap D. <strong>Ch</strong>in", answer: "<strong>B. Ship</strong> /ʃɪp/. Âm /ʃ/ = 'sh'. Các từ còn lại có âm /tʃ/." },
-  { id: 4, question: "The _______ orbits the Earth in about 27 days.", answer: "<strong>Moon</strong>.<br/>(Satellite / Moon = vệ tinh. Quỹ đạo = orbit.)" },
+  { id: 1, question: "Earth<strong>, which</strong> is the third planet from the Sun<strong>,</strong> depends on the Sun for energy.<br/>Đây là loại mệnh đề gì?", answer: "<strong>Non-defining relative clause</strong> (Mệnh đề quan hệ không xác định).<br/>(Có dấu phẩy ngăn cách, bổ sung thêm thông tin, bỏ đi câu vẫn có nghĩa.)" },
+  { id: 2, question: "Cuc Phuong National Park, _______ is in Ninh Binh, has diverse flora and fauna.", answer: "<strong>which</strong>.<br/>(Non-defining clause có dấu phẩy → dùng 'which', KHÔNG dùng 'that'.)" },
+  { id: 3, question: "Dr. Jane Goodall, _______ has studied chimpanzees for decades, is a famous scientist.", answer: "<strong>who</strong>.<br/>(Non-defining clause: 'who' cho người. Không được lược bỏ đại từ quan hệ.)" },
+  { id: 4, question: "The Amazon rainforest, _______ area is decreasing, is vital for the planet.", answer: "<strong>whose</strong>.<br/>(Whose chỉ sở hữu: 'diện tích của rừng Amazon'.)" },
 ];
 
 // =====================================================
-// UNIT 11 – THE CHANGING WORLD (Thế giới Đổi thay)
+// UNIT 11 – ELECTRONIC DEVICES (Thiết bị điện tử)
 // =====================================================
 
 const unit11Vocab: VocabItem[] = [
-  { word: "Urbanization", ipa: "/ˌɜːrbənɪˈzeɪʃn/ (n)", meaning: "<strong>Đô thị hóa</strong>. Quá trình dân di cư từ nông thôn vào thành phố.<br/><em class='text-xs text-gray-500'>Ví dụ: Urbanization leads to city growth.</em>" },
-  { word: "Renewable", ipa: "/rɪˈnjuːəbl/ (adj)", meaning: "<strong>Tái tạo được</strong>.<br/><em class='text-xs text-gray-500'>Ví dụ: Solar power is a renewable energy source.</em>" },
-  { word: "Population", ipa: "/ˌpɒpjuˈleɪʃn/ (n)", meaning: "<strong>Dân số</strong>.<br/><em class='text-xs text-gray-500'>Ví dụ: The world population is over 8 billion.</em>" },
-  { word: "Infrastructure", ipa: "/ˈɪnfrəstrʌktʃər/ (n)", meaning: "<strong>Cơ sở hạ tầng</strong> (đường, điện, nước...).<br/><em class='text-xs text-gray-500'>Ví dụ: Good infrastructure is key to development.</em>" },
-  { word: "Poverty", ipa: "/ˈpɒvəti/ (n)", meaning: "<strong>Nghèo đói</strong>.<br/><em class='text-xs text-gray-500'>Đối lập: Wealth (sự giàu có).</em>" },
-  { word: "Globalization", ipa: "/ˌɡləʊbəlaɪˈzeɪʃn/ (n)", meaning: "<strong>Toàn cầu hóa</strong>. Sự kết nối kinh tế/văn hóa toàn cầu.<br/><em class='text-xs text-gray-500'>Ví dụ: Globalization connects the world.</em>" },
-  { word: "Emission", ipa: "/ɪˈmɪʃn/ (n)", meaning: "<strong>Khí thải</strong>.<br/><em class='text-xs text-gray-500'>Ví dụ: Carbon emissions cause climate change.</em>" },
-  { word: "Sustainable", ipa: "/səˈsteɪnəbl/ (adj)", meaning: "<strong>Bền vững</strong> (không gây hại cho tương lai).<br/><em class='text-xs text-gray-500'>Ví dụ: Sustainable development is important.</em>" },
-  { word: "Migrate", ipa: "/maɪˈɡreɪt/ (v)", meaning: "<strong>Di cư</strong>. Chuyển chỗ ở từ vùng này sang vùng khác.<br/><em class='text-xs text-gray-500'>Danh từ: Migration (n).</em>" },
-  { word: "Deforestation", ipa: "/ˌdiːˌfɒrɪˈsteɪʃn/ (n)", meaning: "<strong>Nạn phá rừng</strong>.<br/><em class='text-xs text-gray-500'>Ví dụ: Deforestation destroys wildlife habitats.</em>" },
+  { word: "3D Printer", ipa: "/ˌθriː diː ˈprɪntər/ (n)", meaning: "<strong>Máy in 3D</strong>. In ra vật thể 3 chiều từ mô hình số.<br/><em class='text-xs text-gray-500'>Ví dụ: A 3D printer can create objects from plastic.</em>" },
+  { word: "Camcorder", ipa: "/ˈkæmkɔːdər/ (n)", meaning: "<strong>Máy quay phim</strong> cầm tay.<br/><em class='text-xs text-gray-500'>Camera + Recorder = Camcorder.</em>" },
+  { word: "Smartwatch", ipa: "/ˈsmɑːtwɒtʃ/ (n)", meaning: "<strong>Đồng hồ thông minh</strong>. Kết nối điện thoại, đo sức khỏe.<br/><em class='text-xs text-gray-500'>Ví dụ: My smartwatch tracks my steps.</em>" },
+  { word: "E-reader", ipa: "/ˈiːriːdər/ (n)", meaning: "<strong>Máy đọc sách điện tử</strong>. Thiết bị chuyên đọc ebook.<br/><em class='text-xs text-gray-500'>Ví dụ: Kindle is a popular e-reader.</em>" },
+  { word: "Copper", ipa: "/ˈkɒpər/ (n)", meaning: "<strong>Đồng</strong> (kim loại). Dùng làm dây điện.<br/><em class='text-xs text-gray-500'>Ví dụ: Copper is used to make electrical wires.</em>" },
+  { word: "Rubber", ipa: "/ˈrʌbər/ (n)", meaning: "<strong>Cao su</strong>. Chất liệu đàn hồi, cách điện.<br/><em class='text-xs text-gray-500'>Ví dụ: Rubber is used to cover wires for safety.</em>" },
+  { word: "Gadget", ipa: "/ˈɡædʒɪt/ (n)", meaning: "<strong>Thiết bị nhỏ, đồ công nghệ</strong>.<br/><em class='text-xs text-gray-500'>Đồng nghĩa: Device. Ví dụ: Electronic gadgets.</em>" },
+  { word: "Portable", ipa: "/ˈpɔːtəbl/ (adj)", meaning: "<strong>Xách tay, di động</strong>. Dễ mang theo.<br/><em class='text-xs text-gray-500'>Ví dụ: A portable speaker is easy to carry.</em>" },
 ];
 
 const unit11Exercises: ExerciseItem[] = [
-  { id: 1, question: "If I _______ (be) a scientist, I _______ (invent) a pollution-free car.", answer: "<strong>were / would invent</strong>.<br/>(Conditional Type 2: If + V2 (were/past), would + V. Điều kiện không có thật ở hiện tại.)" },
-  { id: 2, question: "If people _______ (stop) using fossil fuels, the Earth _______ (become) healthier.", answer: "<strong>stopped / would become</strong>.<br/>(Type 2 – kịch bản giả định, không chắc xảy ra.)" },
-  { id: 3, question: "Linking /n_a/: 'an apple', 'an orange', 'in an hour'. Phát âm thế nào?", answer: "Nối liền âm cuối /n/ với âm nguyên âm /æ/ hoặc /ɒ/: '<strong>ə-næ</strong>pple', 'ə-<strong>nɒ</strong>rɪdʒ'.<br/>(Linking sounds = nối âm: phụ âm cuối + nguyên âm đầu.)" },
-  { id: 4, question: "What do we call the process of cities growing larger as people move there?<br/>A. Migration B. Urbanization C. Deforestation D. Globalization", answer: "<strong>B. Urbanization</strong> = đô thị hóa." },
+  { id: 1, question: "My teacher _______ using a tablet for studying.<br/>(suggest / advise / recommend + V-ing)", answer: "<strong>suggested / advised / recommended</strong>.<br/>(suggest/advise/recommend + V-ing: suggest using... = gợi ý việc sử dụng.)" },
+  { id: 2, question: "She recommended that we _______ a new laptop for school.", answer: "<strong>(should) buy</strong>.<br/>(recommend + that + S + (should) + V nguyên thể.)" },
+  { id: 3, question: "The expert advised _______ (turn off) devices when not in use.", answer: "<strong>turning off</strong>.<br/>(advise + V-ing = khuyên nên làm gì.)" },
+  { id: 4, question: "They suggested that the students _______ (not use) phones in class.", answer: "<strong>(should) not use</strong>.<br/>(suggest + that + S + should not + V nguyên thể.)" },
 ];
 
 // =====================================================
